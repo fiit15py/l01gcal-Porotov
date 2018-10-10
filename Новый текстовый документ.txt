@@ -1,0 +1,68 @@
+Microsoft Windows [Version 10.0.15063]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2017. Все права защищены.
+
+C:\Users\Student>cd Downloads
+
+C:\Users\Student\Downloads>cd l01gcal-Porotov-master
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master>cd l01gcal-Porotov-master
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 78F5-B2D7
+
+ Содержимое папки C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master
+
+03.10.2018  17:04    <DIR>          .
+03.10.2018  17:04    <DIR>          ..
+03.10.2018  16:51               428 client_id.json
+03.10.2018  16:02           448 000 imi2018.xls
+03.10.2018  17:04             1 416 quickstart.py
+03.10.2018  16:02           753 370 Импорт расписания из Excel в gcal.pptx
+               4 файлов      1 203 214 байт
+               2 папок  328 837 476 352 байт свободно
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>python
+"python" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>"c:\Program Files\Python36\python.exe" quickstart.py
+Traceback (most recent call last):
+  File "quickstart.py", line 3, in <module>
+    from googleapiclient.discovery import build
+ModuleNotFoundError: No module named 'googleapiclient'
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>"c:\Program Files\Python36\python.exe" quickstart.py
+c:\Program Files\Python36\lib\site-packages\oauth2client\_helpers.py:255: UserWarning: Cannot access token.json: No such file or directory
+  warnings.warn(_MISSING_FILE_MESSAGE.format(filename))
+
+Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?client_id=393521070883-89tj62547pe7skmo5pdbdfqd2u96k9i2.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.readonly&access_type=offline&response_type=code
+
+If your browser is on a different machine then exit and re-run this
+application with the command-line parameter
+
+  --noauth_local_webserver
+
+Authentication successful.
+Getting the upcoming 10 events
+No upcoming events found.
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>"c:\Program Files\Python36\python.exe" quickstart.py
+Getting the upcoming 10 events
+2018-10-04T04:00:00+09:00 Example Event Успех ФИИТ-15ых
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>git push
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>git add
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>git commit -m "конец пары"
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>git add porotov
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Users\Student\Downloads\l01gcal-Porotov-master\l01gcal-Porotov-master>git add
